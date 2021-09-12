@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.message-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 32px;
+}
+
+.message-container h1 {
+  font-size: 30pt;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.message-container p {
+  font-size: 18pt;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justified {
+  text-align: justify;
+}
