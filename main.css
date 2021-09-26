@@ -10,20 +10,39 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+body {
+  display: flex;
+}
+
+.page-body {
+  flex: 1;
+  display: flex;
+  background-image: url("error-maintenance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 48px;
+}
+
 .message-container {
   max-width: 600px;
   margin: auto;
-  padding: 32px;
+  padding: 2rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 16px #1e1e1e !important;
+  border-radius: 12px;
 }
 
 .message-container h1 {
-  font-size: 30pt;
+  font-size: 24pt;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .message-container p {
-  font-size: 18pt;
+  font-size: 15pt;
   font-weight: 300;
 }
 
